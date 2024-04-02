@@ -25,7 +25,7 @@ This repository is dedicated to a collection of machine learning tasks and metho
 ## [Neural Networks and Deep Learning](https://github.com/AnthonySlawski/PHYS-310/blob/main/Neural%20Networks%20and%20Deep%20Learning.ipynb)
 - **Activation Functions:** Crucial for introducing non-linearity into the model.
 - **Training and Backpropagation:** Fundamentals of training neural networks and the backpropagation algorithm for adjusting the weights.
-- **Convolutional Nets:** Especially powerful in processing data with a grid-like topology, such as images. **Checking out the famous [MNIST dataset](https://www.engati.com/glossary/mnist-dataset#:~:text=The%20MNIST%20database%20(Modified%20National,the%20field%20of%20machine%20learning.)!**
+- **Convolutional Nets:** Especially powerful in processing data with a grid-like topology, such as images. **Checking out the famous [MNIST dataset](https://www.engati.com/glossary/mnist-dataset#:~:text=The%20MNIST%20database%20(Modified%20National,the%20field%20of%20machine%20learning. )!**
 
 This repository aims to provide an overview and practical examples of each of these areas, with a broad spectrum of machine learning tasks and techniques.
 
