@@ -2,7 +2,7 @@
 ## Machine Learning for Physics and Astronomy Data Analysis 
 
 This repository is dedicated to a collection of machine learning tasks and methodologies I learnt from my course PHYS310, covering both fundamental concepts and advanced techniques. It serves as a valuable resource for anyone interested in machine learning. Below is an outline of the key areas covered:
-[link text](#Classification-Tasks.ipynb)
+[link text]([#Classification-Tasks.ipynb)](https://github.com/AnthonySlawski/PHYS-310/blob/main/Classification-Tasks.ipynb)
 ## Classification Tasks
 - **Decision Trees:** Investigate the application of decision trees in classification assignments, a foundational method in machine learning that models decisions and their possible consequences.
 - **K-Nearest-Neighbours (KNN):** Classify instances based on the closest training examples in the feature space.
