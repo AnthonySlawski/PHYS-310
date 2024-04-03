@@ -113,8 +113,8 @@ This notebook aims to apply k-nearest neighbors (kNN) and decision tree (DT) alg
 
 **Key Findings:**
 
--Initial exploration provided insights into the dataset's structure, including the range and distribution of values across different features.
--Preliminary summary statistics offered a baseline understanding of the data's characteristics, laying the groundwork for more nuanced analysis through machine learning models.
+- Initial exploration provided insights into the dataset's structure, including the range and distribution of values across different features.
+- Preliminary summary statistics offered a baseline understanding of the data's characteristics, laying the groundwork for more nuanced analysis through machine learning models.
 
 **Conclusion:**
 The lab underscores the importance of thorough data exploration as a precursor to model application. It demonstrates the potential of kNN and DT algorithms in classifying complex datasets, highlighting the need for careful selection and evaluation of machine learning models based on specific dataset characteristics.
@@ -221,7 +221,7 @@ The lab illustrates the power of ensemble learning methods in tackling complex r
 
 ## [Lab Notebook 14: Flavours of Boosting and Feature Importance](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%2014.ipynb)
 **Objectives:**
-- Expand on the use of boosting methods for estimating photometric redshifts by exploring AdaBoost and various Gradient Boosted Trees (GBM, HistGBM, and XGBoost), along with an investigation into feature importance for interpretability.
+Expand on the use of boosting methods for estimating photometric redshifts by exploring AdaBoost and various Gradient Boosted Trees (GBM, HistGBM, and XGBoost), along with an investigation into feature importance for interpretability.
 
 **Methods Used:**
 
@@ -235,7 +235,7 @@ The lab illustrates the power of ensemble learning methods in tackling complex r
 - Feature importance analysis offered insights into the predictors that played a crucial role in the models' decision-making processes, aiding in the interpretability of machine learning models in scientific research.
 
 **Conclusion:**
-- Lab Notebook 14 demonstrates the effectiveness of advanced boosting techniques in photometric redshift estimation, emphasizing the importance of hyperparameter optimization and the value of understanding model decisions through feature importance. This approach not only enhances predictive accuracy but also contributes to the interpretability of machine learning applications in astrophysics
+Lab Notebook 14 demonstrates the effectiveness of advanced boosting techniques in photometric redshift estimation, emphasizing the importance of hyperparameter optimization and the value of understanding model decisions through feature importance. This approach not only enhances predictive accuracy but also contributes to the interpretability of machine learning applications in astrophysics
 
 ## [Lab Notebook 15: Clustering Methods](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%2015.ipynb)
 **Objectives:**
@@ -330,7 +330,7 @@ Utilize a fully connected deep neural network to tackle the photometric redshift
 
 **Key Findings:**
 
--The deep neural network's objective was to match or exceed the performance of the best ensemble method model, focusing on reducing the outlier fraction in photometric redshift estimation.
+- The deep neural network's objective was to match or exceed the performance of the best ensemble method model, focusing on reducing the outlier fraction in photometric redshift estimation.
 
 **Conclusion:**
 Lab Notebook 20 explores the effectiveness of deep neural networks in addressing regression problems within astrophysics, emphasizing the importance of model tuning and the selection of appropriate loss functions and learning rate schedules for optimal performance. ​
@@ -440,8 +440,8 @@ This homework showcases the intersection of physics and machine learning, highli
 
 ## [Homework 6: Variance of Correlated Variables and Optimization of Extremely Random Trees](https://github.com/AnthonySlawski/PHYS-310/blob/main/Homework%206%20.ipynb)
 **Objectives:**
-- Variance Proof: Prove that the variance of a sum of correlated variables can be expressed in a specific form, highlighting the impact of correlation on variance.
-- Algorithm Optimization: Optimize the Extremely Random Tree algorithm for predicting photometric redshifts, comparing its performance to the optimal Random Forest model.
+Variance Proof: Prove that the variance of a sum of correlated variables can be expressed in a specific form, highlighting the impact of correlation on variance.
+Algorithm Optimization: Optimize the Extremely Random Tree algorithm for predicting photometric redshifts, comparing its performance to the optimal Random Forest model.
   
 **Methods Used:**
 
