@@ -31,18 +31,18 @@ This repository aims to provide an overview and practical examples of each of th
 
 ## Acknowledgments
 
-Special thanks to Dr. Joerg Rottler for his invaluable guidance and support throughout the development of this repository. His knowledge and understanding have been crucial to the project's success.
+Special thanks to Dr. Joerg Rottler for his invaluable guidance and support throughout the development of this repository. His knowledge and understanding have been crucial to the project's success. Additionally, I extend a special thanks to my lab partner, Erin Bennett, whose collaboration has been immensely valuable.
 
 # Let's get started
 ## [Lab Notebook 1: Classical Inference vs Machine Learning](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%201.ipynb)
 
-**Objective:** This notebook aims to review basic concepts of linear regression and contrast them with a machine learning approach, highlighting the differences and similarities between classical statistical inference methods and more modern machine learning techniques.
+**Objective:** This notebook reviews basic concepts of linear regression and contrast them with a machine learning approach, highlighting the differences and similarities between classical statistical inference methods and more modern machine learning techniques.
 
 **Methods Used:**
 
-- Linear regression models are discussed and implemented to show how classical inference operates.
-- Key Python libraries used include NumPy, SciPy, Matplotlib, Pandas, and StatsModels.
-- The notebook begins by importing necessary modules and setting up parameters for figure aesthetics.
+- Linear Regression: Linear regression models are discussed and implemented to show how classical inference operates.
+- Importing Libraries: Python libraries used include NumPy, SciPy, Matplotlib, Pandas, and StatsModels.
+- Changing Aesthetics: The notebook begins by importing necessary modules and setting up parameters for figure aesthetics.
 
 **Key Findings:**
 
@@ -57,16 +57,15 @@ Special thanks to Dr. Joerg Rottler for his invaluable guidance and support thro
 
 **Methods Used:**
 
-- Continuation with Python libraries like NumPy for data manipulation and Matplotlib for visualizations.
-- The notebook starts by re-establishing the environment setup from Lab 1, including module imports and random seed initialization to ensure reproducibility.
-- It involves generating a dataset with a predefined relationship and adding randomness to simulate real-world data.
+- Reproducing Environments: The notebook starts by re-establishing the environment setup from Lab 1, including module imports and random seed initialization to ensure reproducibility.
+- Real World Simulations: It involves generating a dataset with a defined relationship and adding randomness to simulate real-world data.
 
 **Key Findings:**
 - Initial steps include reusing the dataset from Lab 1 but with an intention to apply machine learning techniques.
 - Data is prepared with a specific mathematical relationship and a layer of randomness to mimic actual experimental data.
 - The approach emphasizes understanding the dataset's structure and behavior before applying machine learning models.
 
-**Conclusion:** Lab Notebook 2 serves as a bridge between classical statistical methods and machine learning, using a consistent dataset to highlight how data analysis can be approached differently. By maintaining the same data, it allows for a direct comparison of methodologies and showcases the flexibility and power of machine learning techniques in extracting insights from data.
+**Conclusion:** Lab Notebook 2 bridges classical statistical methods and machine learning, using a consistent dataset to highlight how data analysis can be approached differently. By maintaining the same data, it allows for a direct comparison of methodologies and showcases the flexibility and power of machine learning techniques in extracting insights from data.
 
 ## [Lab Notebook 3 - kNN Algorithm](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%203.ipynb)
 
@@ -74,33 +73,32 @@ Special thanks to Dr. Joerg Rottler for his invaluable guidance and support thro
 
 **Methods Used:**
 
-- Essential Python libraries for data manipulation and visualization are employed, including NumPy, Pandas, and Matplotlib. For machine learning, the notebook utilizes the scikit-learn library.
-- The notebook instructs on organizing data for machine learning, starting with importing datasets, preprocessing, and visualizing the data.
-- It emphasizes the importance of standardizing data and understanding the dataset's structure before applying machine learning models.
+- Data Preparation: The notebook instructs on organizing data for machine learning, starting with importing datasets, preprocessing, and visualizing the data.
+- Data Standardization: It emphasizes the importance of standardizing data and understanding the dataset's structure before applying machine learning models.
 
 **Key Findings:**
 
-- Data from a CSV file is loaded into a Pandas DataFrame for analysis. This dataset appears to be related to the habitability of exoplanets, considering features like planetary mass, orbital period, distance, and a binary habitability status.
+- Data from a CSV file is loaded into a Pandas DataFrame for analysis. This dataset is related to the habitability of exoplanets, including features like planetary mass, orbital period, distance, and a binary habitability status.
 - Initial data preparation steps include visual inspection of the dataset, highlighting the significance of understanding the data's characteristics and distribution before modeling.
 
-**Conclusion:** Lab Notebook 3 provides a hands-on introduction to implementing the kNN algorithm from scratch, showcasing the power of this simple yet effective machine learning technique. Through data preparation, implementation, and comparison with established libraries, the notebook illustrates the practical steps and considerations in applying kNN to a real dataset, focusing on the importance of preprocessing and standardizing data for machine learning tasks.
+**Conclusion:** Lab Notebook 3 provides a hands-on introduction to implementing the kNN algorithm from scratch, showing the power of this simple yet effective machine learning technique. Through data preparation, implementation, and comparison with established libraries, the notebook illustrates the practical steps and considerations in applying kNN to a real dataset, focusing on the importance of preprocessing and standardizing data for machine learning tasks.
 
 ## [Lab Notebook 4 - Decision Trees](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%204.ipynb)
 
-**Objective:** This notebook delves into Decision Trees (DT), a fundamental machine learning algorithm for classification and regression tasks. The exercise involves coding parts of a Decision Tree algorithm from scratch and comparing the results with a pre-written DT routine from a machine learning library.
+**Objective:** This notebook explores Decision Trees (DT), a fundamental machine learning algorithm for classification and regression tasks. The exercise involves coding parts of a Decision Tree algorithm from scratch and comparing the results with a pre-written DT routine from a machine learning library.
 
 **Methods Used:**
 
-- Utilizes Python libraries such as NumPy for numerical operations, Pandas for data manipulation, and Matplotlib for visualization. For machine learning, it employs scikit-learn's DecisionTreeClassifier, among other utilities.
-- The data preparation process mirrors that of the previous lab notebook, emphasizing the importance of loading, cleaning, and understanding the dataset before model implementation.
-- The notebook guides through the implementation of a basic Decision Tree algorithm, highlighting key steps such as feature selection, tree construction, and node splitting.
+- New Packages: Uses scikit-learn's DecisionTreeClassifier, among other utilities.
+- Data Preparation: The data preparation process mirrors the previous lab notebook, emphasizing the importance of loading, cleaning, and understanding the dataset before model implementation.
+- Decision Tree Algorithm: The notebook guides through the implementation of a basic Decision Tree algorithm, highlighting key steps such as feature selection, tree construction, and node splitting.
 
 **Key Findings:**
 
 - The same dataset from the previous lab notebook is reused, ensuring continuity and providing a basis for comparing different machine learning algorithms' performance on a consistent dataset.
 - Initial steps include setting up the environment, importing the necessary libraries, and preparing the dataset for analysis.
 
-**Conclusion:** Lab Notebook 4 offers a comprehensive introduction to Decision Trees, showcasing the algorithm's logic and functionality through a hands-on coding exercise. By comparing a custom implementation with a pre-existing routine, the notebook provides insights into the algorithm's inner workings and the ease with which complex machine learning tasks can be accomplished using established libraries.
+**Conclusion:** Lab Notebook 4 gives a comprehensive introduction to Decision Trees, showcasing the algorithm's logic and functionality. By comparing a custom implementation with a pre-existing routine, the notebook provides insights into the algorithm's inner workings and the ease with which complex machine learning tasks can be accomplished using established libraries.
 
 ## [Lab Notebooks 5 & 6 - Advanced Machine Learning Techniques](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%205-6.ipynb)
 **Objectives:**
@@ -113,11 +111,11 @@ This notebook aims to apply k-nearest neighbors (kNN) and decision tree (DT) alg
 
 **Key Findings:**
 
-- Initial exploration provided insights into the dataset's structure, including the range and distribution of values across different features.
-- Preliminary summary statistics offered a baseline understanding of the data's characteristics, laying the groundwork for more nuanced analysis through machine learning models.
+- Initial exploration gave insights into the dataset's structure, including the range and distribution of values across different features.
+- Summary statistics gave a base understanding of the data's characteristics, establishing the foundation for more complicated analysis through machine learning models.
 
 **Conclusion:**
-The lab underscores the importance of thorough data exploration as a precursor to model application. It demonstrates the potential of kNN and DT algorithms in classifying complex datasets, highlighting the need for careful selection and evaluation of machine learning models based on specific dataset characteristics.
+The lab highlights the importance of thorough data exploration to model application. It demonstrates the potential of kNN and DT algorithms in classifying complex datasets, showing the need for careful selection and evaluation of machine learning models based on specific dataset characteristics.
 
 ## [Lab Notebook 7: Support Vector Machine (SVM)](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%207.ipynb)
 **Objectives:**
@@ -130,11 +128,11 @@ Introduction to the Support Vector Machine (SVM) algorithm, focusing on its appl
 
 **Key Findings:**
 
-- The choice of C has a significant impact on the model's decision boundaries, reflecting a trade-off between model simplicity and fitting to the dataset.
-- Visualization techniques serve as a powerful tool for understanding and interpreting model behavior, especially in relation to parameter choices.
+- The choice of C has a significant impact on the model's decision boundaries, showing a trade-off between model simplicity and fitting to the dataset.
+- Visualization techniques are a powerful tool for understanding and interpreting model behavior, especially in relation to parameter choices.
 
 **Conclusion:**
-Lab Notebook 7 **elucidates** the foundational concepts of SVM, emphasizing the critical role of parameter tuning in optimizing model performance. It showcases SVM's applicability to classification problems and highlights the need for a balanced approach to model complexity.
+Lab Notebook 7 Explains the foundational concepts of SVM, emphasizing the important role of parameter tuning in optimizing model performance. It shows SVM's applicability to classification problems and highlights the need for a balanced approach to model complexity.
 
 ## [Lab Notebook 8: SVM Classification in Particle Physics](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%208.ipynb)
 **Objectives:**
@@ -142,16 +140,16 @@ To explore the application of Support Vector Machines (SVMs) to a larger dataset
 
 **Methods Used:**
 
-- Data Preprocessing: Reading and exploration of the dataset using pandas, transformation of string-type labels into binary format with sklearn's LabelEncoder, and handling of missing data by considering a subset of the dataset with complete columns.
+- Data Processing: Reading and exploring the dataset using pandas, transformation of string-type labels into binary format with sklearn's LabelEncoder, and handling of missing data by considering a subset of the dataset with complete columns.
 - SVM Application: Application of SVM to the processed dataset, with the aim of classifying particle physics events.
 
 **Key Findings:**
 
-- Preliminary data exploration revealed challenges associated with missing data and the need for careful preprocessing to ensure model applicability.
-- Converting categorical labels into a binary format allowed for the straightforward application of SVM, demonstrating the algorithm's flexibility in handling various data types.
+- Data exploration revealed challenges associated with missing data and the need for careful preprocessing to ensure model applicability.
+- Converting categorical labels into a binary format allowed for the easy application of SVM, demonstrating the algorithm's flexibility in handling various data types.
 
 **Conclusion:**
-This lab highlights the complexities of applying machine learning algorithms to real-world datasets, particularly in fields like particle physics where data can be incomplete or irregularly structured. It showcases the necessity of comprehensive data preprocessing and the potential of SVM in classifying complex datasets. ​​
+This lab highlights the complexities of applying machine learning algorithms to real-world datasets, particularly in fields like particle physics where data can be incomplete or irregular. It shows the necessity of comprehensive data processing and the potential of SVM in classifying complex datasets. ​​
 
 ## [Lab Notebook 9: Basic Linear Regression](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%209.ipynb)
 **Objectives:**
@@ -159,8 +157,8 @@ Explore the basics of linear regression, including setting up a model, exploring
 
 **Methods Used:**
 
-- Linear Model Setup: Utilized sklearn's LinearRegression() to fit a linear model to generated data, comparing the model's predictions against a predefined true regression line.
-- Residual Analysis: Investigated the residuals - the differences between the actual data points and the model's predictions - to assess the independence of errors from the independent variable (x).
+- Linear Model Setup: Used sklearn's LinearRegression() to fit a linear model to generated data, comparing the model's predictions against a predefined true regression line.
+- Residual Analysis: Investigated the residuals, the differences between the actual data points and the model's predictions, to assess the independence of errors from the independent variable (x).
 
 **Key Findings:**
 
@@ -187,25 +185,25 @@ This lab highlighted the practical application of gradient descent in linear reg
 
 ## [Lab Notebook 11: Regularization and Logistic Regression in Linear Models](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%2011.ipynb)
 **Objectives:**
-Extend linear regression analysis by introducing regularization techniques to combat overfitting and logistic regression for binary classification problems.
+Extend linear regression analysis by introducing regularization techniques to reduce overfitting and logistic regression for binary classification problems.
 
 **Methods Used:**
 
 - Data Generation and Transformation: Generated a dataset with multiple features, including correlated features through polynomial transformations.
-- Modeling with Regularization: Explored Ridge regression, adjusting the regularization strength (alpha) and assessing model performance using cross-validation.
+- Modeling with Regularization: Looked at Ridge regression, adjusting the regularization strength (alpha) and assessing model performance using cross-validation.
 - Logistic Regression Application: Implemented logistic regression for binary classification, focusing on model evaluation and the importance of feature scaling.
 
 **Key Findings:**
 
 - Ridge regression's effectiveness varied with the choice of alpha, emphasizing the need for careful parameter tuning.
-- Logistic regression demonstrated the model's capacity for binary classification tasks, highlighting the critical role of preprocessing steps like feature scaling.
+- Logistic regression demonstrated the model's capacity for binary classification tasks, highlighting the critical role of processing steps like feature scaling.
 
 **Conclusion:**
-The exploration of regularization and logistic regression provided deeper insights into enhancing linear regression models' performance and adaptability, underlining the significance of regularization in preventing overfitting and logistic regression in handling classification problems.
+The exploration of regularization and logistic regression provided deeper insights into enhancing linear regression models' performance and adaptability, displaying the significance of regularization in preventing overfitting and logistic regression in handling classification problems.
 
 ## [Lab Notebook 12-13: Bagging, Boosting, and Photometric Redshifts](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%2012-13.ipynb)
 **Objectives:**
-This notebook focuses on utilizing ensemble methods, specifically bagging and boosting techniques like Random Forests, AdaBoost, and Gradient Boosting, to estimate photometric redshifts of galaxies based on observations in six different photometric bands.
+This notebook focuses on using ensemble methods, specifically bagging and boosting techniques like Random Forests, AdaBoost, and Gradient Boosting, to estimate photometric redshifts of galaxies based on observations in six different photometric bands.
 
 **Methods Used:**
 
@@ -214,10 +212,10 @@ This notebook focuses on utilizing ensemble methods, specifically bagging and bo
 
 **Key Findings:**
 
-- Ensemble methods demonstrated significant potential in improving the accuracy of photometric redshift estimation, as indicated by measures such as the normalized median absolute deviation of residuals and the fraction of outliers.
+- Ensemble methods demonstrated huge potential in improving the accuracy of photometric redshift estimation, as indicated by measures like the normalized median absolute deviation of residuals and the fraction of outliers.
 
 **Conclusion:**
-The lab illustrates the power of ensemble learning methods in tackling complex regression problems in astrophysics, highlighting their effectiveness in enhancing prediction accuracy and reducing outlier fractions in the context of photometric redshift estimation.
+The lab shows the power of ensemble learning methods in tackling complex regression problems in astrophysics, highlighting their effectiveness in enhancing prediction accuracy and reducing outlier fractions in the context of photometric redshift estimation.
 
 ## [Lab Notebook 14: Flavours of Boosting and Feature Importance](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%2014.ipynb)
 **Objectives:**
@@ -225,7 +223,7 @@ Expand on the use of boosting methods for estimating photometric redshifts by ex
 
 **Methods Used:**
 
-- Model Optimization: Thorough optimization of AdaBoost hyperparameters and exploration of different flavors of Gradient Boosted Trees to find the most effective model configurations.
+- Model Optimization: Thorough optimization of AdaBoost hyperparameters and exploration of different types of Gradient Boosted Trees to find the most effective model configurations.
 - Parameter Exploration: Utilization of RandomizedSearchCV for an extensive search over specified parameter values for model tuning.
 - Feature Importance Analysis: Examination of the feature importances provided by ensemble methods to identify the most significant predictors in the dataset.
 
@@ -252,7 +250,7 @@ The aim is to understand and implement k-means++ clustering from scratch, testin
 - DBSCAN showed superior performance on datasets with irregularly shaped clusters, highlighting its advantage in identifying clusters of arbitrary shapes without specifying the number of clusters beforehand.
 
 **Conclusion:**
-This notebook underscores the importance of choosing the right clustering method based on dataset characteristics. k-means++ offers enhancements over standard k-means for spherical clusters, while DBSCAN provides a robust solution for datasets with irregularly shaped clusters, emphasizing the need for method selection in clustering tasks.
+This notebook underscores the importance of choosing the right clustering method based on dataset characteristics. k-means++ offers enhancements over standard k-means for spherical clusters, while DBSCAN provides a robust solution for datasets with irregularly shaped clusters, showing the need for method selection in clustering tasks.
 
 ## [Lab Notebook 16: Principal Component Analysis](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%2016.ipynb)
 **Objectives:**
@@ -285,15 +283,15 @@ Introduce the basic concepts of neural networks, starting with the similarity be
 - The comparison between logistic regression and a single-layer neural network illustrated the conceptual similarity between the two, with the neural network model effectively mirroring the logistic regression model in terms of decision boundaries and predictive capabilities.
 
 **Conclusion:**
-This notebook serves as a foundational introduction to neural networks, establishing the link between logistic regression and neural networks. It demonstrates that a neural network without hidden layers functions similarly to logistic regression, providing a basis for understanding more complex neural network structures.
+This notebook is a foundational introduction to neural networks, establishing the link between logistic regression and neural networks. It demonstrates that a neural network without hidden layers functions similarly to logistic regression, providing a basis for understanding more complex neural network structures.
 
 ## [Lab Notebook 18: Introduction to Neural Networks](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%2018.ipynb)
 **Objectives:**
-The lab introduces neural networks by illustrating the relationship between logistic regression and a single-layer neural network (i.e., a neural network with no hidden layers).
+The lab introduces neural networks by displaying the relationship between logistic regression and a single-layer neural network (i.e., a neural network with no hidden layers).
 
 **Methods Used:**
 
-- Comparison with Logistic Regression: Employed logistic regression on a dataset to serve as a baseline for comparison.
+- Comparison with Logistic Regression: Used logistic regression on a dataset to serve as a baseline for comparison.
 - Single Neuron Model: Implemented a neural network model using MLPClassifier from sklearn.neural_network with no hidden layers and compared its performance to logistic regression.
 
 **Key Findings:**
@@ -321,7 +319,7 @@ This notebook highlights the application of neural networks in solving classific
 
 ## [Lab Notebook 20: Photometric Redshift Estimation with Deep Neural Networks](https://github.com/AnthonySlawski/PHYS-310/blob/main/Lab%20Notebook%2020.ipynb)
 **Objectives:**
-Utilize a fully connected deep neural network to tackle the photometric redshift estimation problem, exploring the impact of different loss functions and learning rate schedules on model performance.
+Use a fully connected deep neural network to tackle the photometric redshift estimation problem, exploring the impact of different loss functions and learning rate schedules on model performance.
 
 **Methods Used:**
 
@@ -341,7 +339,7 @@ The lab focuses on detecting exoplanets using data from the NASA Kepler space te
 
 **Methods Used:**
 
-- Data Preprocessing: Reading the dataset into pandas, performing summary statistics, and reformatting data for model input.
+- Data Processing: Reading the dataset into pandas, performing summary statistics, and reformatting data for model input.
 - Convolutional Neural Network (CNN) Training: Preparing the data for CNNs through Fast Fourier Transform (FFT), scaling, filtering, and subsequently training a CNN to classify exoplanet and non-exoplanet stars based on flux intensity patterns.
 
 **Key Findings:**
@@ -359,7 +357,7 @@ Homework 1 investigates the performance of k-nearest neighbors (kNN) and decisio
 **Methods Used:**
 
 - Model Evaluation: Application of kNN and decision tree classifiers to the dataset, with accuracy assessment across various parameter settings.
-- Feature Importance Analysis: Utilization of decision tree's feature_importances_ to understand the most significant features in the classification process.
+- Feature Importance Analysis: Using decision tree's feature_importances_ to understand the most significant features in the classification process.
 
 **Key Findings:**
 
@@ -377,12 +375,12 @@ To explore and evaluate the performance of k-nearest neighbors (kNN) and decisio
 
 - Classifier Application: Applied kNN and decision tree classifiers to the dataset, including parameter optimization for kNN (number of neighbors) and decision trees (max depth and max features).
 - Accuracy Evaluation: Evaluated model accuracy across different parameter settings, employing techniques like scaling with StandardScaler to assess its impact on kNN performance.
-- Feature Importance Analysis: Leveraged decision tree's feature_importances_ to identify and visualize the most significant features in predicting cancer malignancy.
+- Feature Importance Analysis: Used decision tree's feature_importances_ to identify and visualize the most significant features in predicting cancer malignancy.
 
 **Key Findings:**
 
 - The optimal k value for kNN and the best combination of max depth and max features for decision trees were identified, significantly impacting model accuracy.
-- Feature scaling improved kNN performance, highlighting the importance of preprocessing in machine learning workflows.
+- Feature scaling improved kNN performance, showing the importance of processing in machine learning workflows.
 - Feature importance analysis from the decision tree model provided insights into critical predictors of cancer malignancy, offering potential clinical relevance.
 
 **Conclusion:**
@@ -403,11 +401,11 @@ The assignment focuses on classifying and predicting whether a star is a RR-Lyra
 - An understanding of the dataset's balance and the baseline accuracy achievable by a naive classifier was established, setting the stage for more sophisticated analysis.
 
 **Conclusion:**
-Homework 3 lays the groundwork for applying machine learning models to astronomical data, highlighting the importance of initial data exploration and problem framing in guiding subsequent analysis and model selection.
+Homework 3 establishes the foundation for applying machine learning models to astronomical data, highlighting the importance of initial data exploration and problem framing in guiding subsequent analysis and model selection.
 
 ## [Homework 4: Discover the Higgs Boson!](https://github.com/AnthonySlawski/PHYS-310/blob/main/Homework%204.ipynb)
 **Objectives:**
-Engage with a simplified version of the simulated Higgs boson data challenge to classify instances as either "no Higgs signal" or "Higgs signal," using provided features.
+Work with a simplified version of the simulated Higgs boson data challenge to classify instances as either "no Higgs signal" or "Higgs signal," using provided features.
 
 **Methods Used:**
 
@@ -416,15 +414,15 @@ Engage with a simplified version of the simulated Higgs boson data challenge to 
 
 **Key Findings:**
 
-- Initial exploration provided a clear overview of the dataset's composition, including the number of features and instances, essential for planning subsequent analysis.
-- Visualization of feature distributions offered insights into the characteristics of the data, potentially informing feature selection and preprocessing decisions in model development.
+- Initial exploration provided a clear overview of the dataset's composition, including the number of features and instances, essential for planning further analysis.
+- Visualization of feature distributions gave insights into the characteristics of the data, potentially informing feature selection and preprocessing decisions in model development.
 
 **Conclusion:**
-Homework 4 introduces participants to the complexities and challenges of analyzing high-energy physics data, emphasizing the importance of thorough data exploration and visualization in understanding the underlying patterns that may signal the presence of the Higgs boson.
+Homework 4 introduces us to the complexities and challenges of analyzing high-energy physics data, emphasizing the importance of thorough data exploration and visualization in understanding the underlying patterns that may signal the presence of the Higgs boson.
 
 ## [Homework 5: Learning the Ising Model Coupling Constants](https://github.com/AnthonySlawski/PHYS-310/blob/main/Homework%205.ipynb)
 **Objectives:**
-To apply linear regression techniques to learn the coupling strengths $J_{j,k}$ of the one-dimensional Ising model, a fundamental model in statistical mechanics describing interactions between spins in a lattice.
+To apply linear regression techniques to learn the coupling strengths $J_{j,k}$ of the one-dimensional Ising model.
 
 **Methods Used:**
 
@@ -445,7 +443,7 @@ Algorithm Optimization: Optimize the Extremely Random Tree algorithm for predict
   
 **Methods Used:**
 
-- Utilized properties of covariance to derive the variance formula, considering both the correlation coefficient and the variance of individual variables.
+- Used properties of covariance to derive the variance formula, considering both the correlation coefficient and the variance of individual variables.
 - Employed grid search for hyperparameter optimization of the Extremely Random Tree model, assessing performance through metrics such as mean absolute error and outlier fraction.
 
 **Key Findings:**
@@ -479,17 +477,17 @@ The goal of this homework is to explore hyperparameter optimization strategies f
 
 **Methods Used:**
 
-- Keras Tuner for Hyperparameter Optimization: Employed Keras Tuner to systematically explore and optimize neural network configurations, including variations in the number of layers, the number of neurons per layer, and learning rates.
+- Keras Tuner for Hyperparameter Optimization: Used Keras Tuner to systematically explore and optimize neural network configurations, including variations in the number of layers, the number of neurons per layer, and learning rates.
 - Model Definition and Tuning: Defined a neural network model function that is compatible with Keras Tuner, specifying the architecture and hyperparameters to be tuned.
-- Evaluation and Validation: Utilized the best model configurations identified by Keras Tuner to fit the data, employing cross-validation techniques with SciKeras to rigorously evaluate model performance.
+- Evaluation and Validation: Used the best model configurations identified by Keras Tuner to fit the data, utilizing cross-validation techniques with SciKeras to evaluate model performance.
 
 **Key Findings:**
 
-- Keras Tuner facilitated the identification of optimal hyperparameters, potentially improving upon previous models' performance by exploring a wide range of network configurations.
+- Keras Tuner enabled the identification of optimal hyperparameters, potentially improving upon previous models' performance by exploring a range of network configurations.
 - The application of cross-validation with SciKeras provided a more robust evaluation of the neural network model, ensuring that the performance assessment was thorough and less prone to overfitting.
 
 **Conclusion:**
-Homework 8 demonstrates the effectiveness of advanced tools like Keras Tuner and SciKeras in refining neural network models for complex regression tasks. Through strategic hyperparameter tuning and enhanced validation methods, it is possible to significantly improve model performance, underscoring the value of these techniques in machine learning workflows.
+Homework 8 demonstrates the effectiveness of advanced tools like Keras Tuner and SciKeras in refining neural network models for complex regression tasks. Through strategic hyperparameter tuning and enhanced validation methods, it is possible to greatly improve model performance, showing the value of these techniques in machine learning workflows.
 
 ## References
 - Acquaviva, V. (2023). *Machine Learning for Physics and Astronomy*. Princeton University Press. This book has been a key resource, providing important knowledge that greatly influenced the methods and techniques discussed in this repository.
