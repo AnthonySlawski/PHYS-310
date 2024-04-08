@@ -1,0 +1,22 @@
+Copyright (c) 2015-2016 Nongnuch Artrith and Alexander Urban, all rights reserved
+
+This data set contains total energies and atomic forces for 7,815 atomic
+structures, calculated based on density-functional theory as implemented
+in Quantum Espresso v. 5.1.0. Further details regarding the computations
+are provided in reference [1].
+
+The data is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and noninfringement. In no event shall
+the authors or copyright holders be liable for any claim, damages or
+other liability, whether in an action of contract, tort or otherwise,
+arising from, out of or in connection with the data or the use or other
+dealings in the data.
+
+All publications that make use of the data shall cite the following
+reference:
+
+[1] N. Artrith and A. Urban, An implementation of artificial
+neural-network potentials for atomistic materials simulations:
+Performance for TiO2, Comput. Mater. Sci. 114 (2016) 135-150.
+http://dx.doi.org/10.1016/j.commatsci.2015.11.047

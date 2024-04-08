@@ -1,0 +1,12 @@
+{
+    "potentials" : {
+        "Ti" : "Ti.10tw-10tw.ann",
+        "O"  : "O.10tw-10tw.ann"
+    },
+    "structure_file" : "rutile-2x2x2.vasp",
+    "trajectory_file" : "md.traj",
+    "temperature" : 1000.0,
+    "md_steps"    : 500001,
+    "print_steps" : 1,
+    "time_step"   : 2.0
+}

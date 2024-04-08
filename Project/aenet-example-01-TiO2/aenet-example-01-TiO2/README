@@ -1,0 +1,66 @@
+Construction and test of an ANN potential for bulk TiO2
+========================================================================
+
+Note: Running the example requires compiling the aenet package and
+      setting up the Python ASE interface.
+
+Note: Do not open the following files with a text editor:
+      TiO2.train, O.10tw-10tw.ann, and Ti.10tw-10tw.ann
+      they are in a binary format.
+
+
+Step 1: directory '01-generate'
+------------------------------------------------------------------------
+
+Transform atomic coordinates to invariant representation of the local
+atomic environment
+
+Input files  : generate.in, O.fingerprint.stp, Ti.fingerprint.stp,
+               reference data in XSF format
+Run          : generate.x generate.in > generate.out
+Output files : TiO2.train
+
+
+Step 2: directory '02-train'
+------------------------------------------------------------------------
+
+Fitting of the ANN potential
+
+Input files  : train.in, TiO2.train (from step 1)
+Run          : train.x train.in > train.out
+Output files : O.10tw-10tw.ann, Ti.10tw-10tw.ann, ...
+
+
+Step 3: directory '03-predict'
+------------------------------------------------------------------------
+
+Usage of the ANN potential to predict energy and forces
+
+Input files  : predict.in, XSF structure files, O.10tw-10tw.ann,
+               Ti.10tw-10tw.ann
+Run          : predict.x predict.in > predict.out
+
+
+Step 4: directory '04-MD-ASE'
+------------------------------------------------------------------------
+
+Usage of the ANN potential for an MD simulation
+
+Input files  : input.json, O.10tw-10tw.ann, Ti.10tw-10tw.ann,
+               rutile-2x2x2.vasp
+Run          : aenet-md.py input.json > md.out
+
+
+Questions?
+------------------------------------------------------------------------
+
+If you run into problems with aenet or if you have a general question,
+please contact Dr. Nongnuch Artrith (nartrith@atomistic.net).
+
+
+This example is based on the following publication:
+
+  N. Artrith and A. Urban, An implementation of artificial
+  neural-network potentials for atomistic materials simulations:
+  Performance for TiO2, Comput. Mater. Sci. 114 (2016) 135-150.
+  http://dx.doi.org/10.1016/j.commatsci.2015.11.047

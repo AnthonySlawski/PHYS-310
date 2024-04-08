@@ -1,0 +1,23 @@
+TYPES
+2
+Ti
+O
+
+NETWORKS
+  Ti Ti.10tw-10tw.ann
+  O  O.10tw-10tw.ann
+
+FORCES
+
+FILES
+10
+structure0001.xsf
+structure0002.xsf
+structure0003.xsf
+structure0004.xsf
+structure0005.xsf
+structure0006.xsf
+structure0007.xsf
+structure0008.xsf
+structure0009.xsf
+structure0010.xsf
