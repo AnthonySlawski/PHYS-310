@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: aenet
+Version: 0.1.0a1
+Summary: Artificial Neural Network Potentials
+Home-page: http://aenet.atomistic.net
+Author: Nongnuch Artrith, Alexander Urban
+Author-email: nartrith@atomistic.net, aurban@atomistic.net
+Maintainer: Nongnuch Artrith, Alexander Urban
+License: GNU GPL
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU GPL
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+
+            Python interface to the symmetry function module
+------------------------------------------------------------------------
+
+Prerequisites:
+
+  Python 3.6
+  Cython
+
+
+Installation:
+
+(1) Compile the symmetry function C library in ../src
+
+$ cd ../src
+$ make -f ./makefiles/Makefile.XXX lib
+$ cd -
+
+Select the Makefile.XXX that is appropriate for your system.
+
+(2) Build Python extension module
+
+$ python setup.py build_ext --inplace
